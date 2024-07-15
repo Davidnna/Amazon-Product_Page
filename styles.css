@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    color: #121212;
+    margin: 10px auto;
+    width: 900px;
+    border: 2px solid #121212;
+    padding: 10px 20px;
+}
+
+.image-text {
+    color: #565959;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    height: 500px;
+}
+
+.texts {
+    width: 540px;
+}
+
+.link {
+    color: #007185;
+}
+
+.width {
+    width: 125px;
+}
