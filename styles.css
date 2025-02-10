@@ -2,18 +2,20 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-.title {
-    font-weight: lighter;
-}
-
 .project {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     color: #121212;
     margin: 10px auto;
-    width: 900px;
+    max-width: 1000px;
     border: 2px solid #121212;
     padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.img {
+    margin: auto;
 }
 
 .image-text {
@@ -26,7 +28,12 @@ body {
 }
 
 .texts {
-    width: 540px;
+    max-width: 540px;
+    margin: auto;
+}
+
+.title {
+    font-weight: lighter;
 }
 
 .link {
@@ -35,4 +42,21 @@ body {
 
 .width {
     width: 125px;
+}
+
+@media (max-width: 944px) {
+    .project {
+        max-width: 600px;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 300px) {
+    .project {
+        padding: 10px 10px;
+    }
 }
